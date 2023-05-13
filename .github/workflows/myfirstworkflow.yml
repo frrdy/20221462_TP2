@@ -20,4 +20,4 @@ jobs:
       - name: definition of docker image tag
         run: docker tag weather:0.0.2 ${{ secrets.DOCKERHUB_REGISTRY }}:0.0.2
       - name: Push on docker hub
-        run: docker push ${{ secrets.DOCKERHUB_USER }}/${{ secrets.DOCKERHUB_REGISTRY }}:0.0.2
+        run: docker push 0.0.2
