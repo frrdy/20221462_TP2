@@ -11,4 +11,4 @@ COPY TP2.py /app
 RUN pip3 install --no-cache-dir requests==2.28.2
 
 # Définir la commande d'exécution par défaut de l'image
-CMD [ "python3", "TP2.py" ]
+CMD [ "python3", "main.py" ]
